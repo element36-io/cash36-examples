@@ -1,2 +1,4 @@
-# cash36-examples
-Examples how to use element36 for receiving wire-transfers into ethereum smart contracts.
+Examples how to use element36 to wire-transfer Euro and CHF to  Smart Contracts. 
+
+
+[Aragon](./src/aragon.html)

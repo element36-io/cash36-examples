@@ -1,0 +1,21 @@
+{
+    "name": "@element36-io/cash36-aragon",
+    "version": "0.1.1",
+    "description": "Contains a demo how to send funds wallet-free to an aragon contract using cash36.io",
+    "homepage": "http://element36.io",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "w@element36.io"
+        }
+    ],
+    "author": {
+        "name": "w@element36.io"
+    },
+    "devDependencies": {
+        "lite-server": "^2.3.0"
+    },
+    "scripts": {
+        "start": "lite-server ./src"
+    }
+}
