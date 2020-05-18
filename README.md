@@ -1,11 +1,10 @@
-# Cash36 Examples
+# ![element36](./src/img/element36.svg)
 
 Examples how to: 
 
 - use element36 to wire-transfer Euro and CHF to smart contracts
 - Trigger wire transfers from smart contracts
 - Reveal identity of the senders of CHF36 and EUR36
-
 
 ## Aragon: Wire-transfer to a 0x address
 
@@ -15,7 +14,6 @@ use the tradional payment network e.g. for funding purposes, without loosing the
 safety and transparency of blockchain apps. See a list of Aragon Dapps [here](https://poweredby.aragon.org/).  
 
 Test [WALLET-FREE](https://examples.e36.io/src/aragon.html) transfers to Aragon. You may create own contracts or use any ERC20 contract instead. Source of the demo project [here](./src/aragon.html).
-
 
 ## Ethereum: contract initiates wire-transfer
 
