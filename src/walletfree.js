@@ -21,7 +21,7 @@ function simulatePayment() {
         "symbol": "EUR36",
         "targetAddress": "0xb62d5cfe67b69f9bf045a2f7ef923a384d533154",  // https://rinkeby.aragon.org/?#/fibreetest/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154/
         "targetAddressType": "CONTRACT", 
-        "userIban": "CH93 0076 2011 6238 5295 7DE89 3704 0044 0532 0130 00" // this is used in dev/test to simulate payments. You need to create a user, use this number when onboarding  
+        "userIban": "CH93 0076 2011 6238 5295 7" // this is used in dev/test to simulate payments. You need to create a user, use this number when onboarding  
       });
     xhr.send(data);
 
