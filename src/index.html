@@ -12,7 +12,7 @@
     <header class="header">
       <div class="header__content">
         <h1>   
-          <img  src="./img/aragon2.jpeg" class="hero__img" style="width: 10%; height: 10%"/>
+          <img  src="./img/aragon2.jpeg" class="hero__img" style="width: 5%; height: 5%"/>
           Wire-transfer Euro or CHF to Aragon Smart Contracts
         </h1>
       </div>
@@ -35,53 +35,38 @@
             <h3>Aragon with Testnetwork</h3>
             Simulated payments &amp; KYC on rinkeby network.
             <p class="__paragraph">
-                You may log into <a href="http://demo.e36.io:3000">demo-server</a> with demo@element36.io and password: Element36.io 
+                You may log into <a href="http://demo.e36.io:3000">demo-server</a> with our demo-user: demo@element36.io and password: Element36.io 
             </p>
             <p class="__paragraph">
                 Check out incoming funds at the <a href="https://rinkeby.aragon.org/?#/fibreetest/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154/">Aragon contract</a>. 
             </p>
         
             <button type="button" class="btn-ping button button-full" onclick="simulatePayment();">
-            Simulate 5 EUR Bank Payment (demo-user)
+              Simulate 5 EUR Bank Payment (demo-user)
             </button>
         </div>
         <div class="ping-pong__section paper">
             <h3>Aragon on Mainnet with real money</h3>
             <div>
-            Aragon contract on mainnet using real (live) payments and KYC. 
+              Aragon contract on mainnet using real (live) payments and KYC. 
             </div>
             <p class="__paragraph">
                 After the payment you need to do full KYC on <a href="https://cash36.io">cash36.io</a>. 
                 If done, your payment will converted to our stablecoin and sent to the contract. 
             </p>
             <p class="__paragraph">
-                check out the Aragon contract on <a href="https://aragon.org">Aragon.org</a>. 
-                </p>
+                Check out the Aragon contract on <a href="https://aragon.org">Aragon.org</a>. 
+            </p>
 
             <button type="button" class="btn-ping button button-full">
             Do real payment of 5 CHF
             </button>
         </div>
       </section>
-
       <section class="ping-pong">
-        <div class="ping-pong__section paper " style="max-width: 800px;">
-          <h3>Bank details for the wire-transfer:</h3>
-          
-          <div id="bank-details" >
-          To (recipient name): <div id="receipientName"></div>
-          <br>
-          Recipient IBAN: <div id="receipientIban" >...</div>, recipient IBAN: <div id="receipientAddress" >...</div>
-          <br>
-          Bank (recipient bank): <div id="bankName">...</div>, bank BIC: <div id="bankBic" >...</div>
-          <br>Bank Address: <div id="bankAddress" >...</div>, country: <div id="bankCountry" >...</div>
-          <br>
-          REFERENCE-ID/CODE: <div id="paymentReferenceId">...</div>
-          <br>
-          Amount: <div id="amount">...</div> <div id="currency"></div>
-        </div>
-      </div>
-    </section>
+        <div  class="paper " id="bankslip"></div>
+      </section>
+     
 
     <section class="ping-pong">
         <div>
@@ -90,6 +75,24 @@
         </div>
     </section>
 
+    <section class="ping-pong" style=" opacity: 0.5; display:none;">
+      <div class="ping-pong__section paper " style="max-width: 800px;">
+        <h3>Bank details for the wire-transfer:</h3>
+        
+        <div id="bank-details" >
+        To (recipient name): <div id="receipientName"></div>, Recipient IBAN: <div id="receipientIban" >...</div>
+        <br>Recipient address: <div id="receipientAddress" >...</div>
+        <br>
+        Bank (recipient bank): <div id="bankName">...</div>, BIC: <div id="bankBic" >...</div>
+        <br>Bank address: <div id="bankAddress" >...</div>, country: <div id="bankCountry" >...</div>
+        <br>
+        REFERENCE-ID/CODE: <div id="paymentReferenceId">...</div>
+        <br>
+        Amount: <div id="amount">...</div> <div id="currency"></div>
+      </div>
+    </div>
+
+  </section>
   </div>
   </body>
 

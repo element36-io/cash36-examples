@@ -1,6 +1,7 @@
 
-var demoBaseUrl= "http://demo.e36.io:8090/cash36/" //"http://demo.e36.io:3000/";
-var prodBaseUrl= "https://cash36.io/cash36/" //"http://demo.e36.io:3000/";
+var demoBaseUrl= "http://localhost:8090/cash36/" 
+//var demoBaseUrl= "http://demo.e36.io:8090/cash36/" 
+var prodBaseUrl= "https://cash36.io/cash36/" 
 
 
 function simulatePayment() {
@@ -50,6 +51,7 @@ function getPaymentInfo() {
 
 function showPaymentInfo(serverInfo) {
     console.log(JSON.stringify(serverInfo));
+    document.getElementById("bankslip").innerHTML=serverInfo.qrCodeSVG;
     for(var key in serverInfo)  {
         if (document.getElementById(key)) {
             document.getElementById(key).innerHTML=serverInfo[key];
