@@ -19,42 +19,48 @@
     </header>
     <div class="container">
       <section class="hero">
-        <p >
-            All transaction are handled within KYC-ed environment which is enforced by smart contracts (ERC20 stablecoins).
-        </p>
+
         <OL >
             <LI>Do payment</LI>
             <LI>Onboard &amp; KYC yourself if not done yet</LI>
             <LI>Funds will be sent to Aragon Smart Contract</LI>
+            <LI>(Target contract may trigger wire-transfers)</LI>
+            
         </OL>
-
+        <br>
+        <p >
+          All transaction are handled within KYC-ed environment which is enforced by smart contracts (ERC20 stablecoins).
+      </p>
 
       </section>
       <section class="ping-pong">
         <div class="ping-pong__section paper">
             <h3>Aragon with Testnetwork</h3>
             Simulated payments &amp; KYC on rinkeby network.
+ 
             <p class="__paragraph">
-                You may log into <a href="http://demo.e36.io:3000">demo-server</a> with our demo-user: demo@element36.io and password: Element36.io 
-            </p>
-            <p class="__paragraph">
-                After clicking "simulate", check out incoming funds on the
+               Clicking "simulate" will simulate the wire-transfer of the payment-slip below - check out incoming funds on 
                 <a href="https://rinkeby.etherscan.io/address/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154#tokentxns">etherscan</a> or the 
                 <a href="https://rinkeby.aragon.org/?#/fibreetest/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154/">Aragon contract</a>. 
             </p>
         
+            <p class="__paragraph">
+              You may log into <a href="http://demo.e36.io:3000">demo-server</a> with our demo-user: demo@element36.io and password: Element36.io 
+          </p>
+
             <button type="button" class="btn-ping button button-full" onclick="simulatePayment();">
               Simulate 5 EUR Bank Payment (demo-user)
             </button>
         </div>
         <div class="ping-pong__section paper">
-            <h3>Aragon on Mainnet with real money</h3>
+            <h3>Aragon using real money</h3>
             <div>
               Aragon contract on mainnet using real (live) payments and KYC. 
             </div>
             <p class="__paragraph">
-                After the payment you need to do full KYC on <a href="https://cash36.io">cash36.io</a>. 
+                After the payment you NEED TO DO FULL KYC on <a href="https://cash36.io">cash36.io</a>. 
                 If done, your payment will converted to our stablecoin and sent to the contract. 
+                Based on the transaction-hash, the contracts can send back funds to you.
             </p>
             <p class="__paragraph">
                 Check out the Aragon contract on <a href="https://aragon.org">Aragon.org</a>. 
