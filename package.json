@@ -16,6 +16,6 @@
         "lite-server": "^2.3.0"
     },
     "scripts": {
-        "start": "lite-server ./src/aragon.html"
+        "start": "lite-server ./src/index.html"
     }
 }

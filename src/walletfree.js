@@ -41,8 +41,8 @@ function getPaymentInfo() {
     };
     var data = JSON.stringify({
         "amount": 5,
-        "symbol": "CHF36",
-        "targetAddress": "0xeB237523c412a56dde5b8eE0Bc2A6faBfC187afd",
+        "symbol": "EUR36", // CHF36",
+        "targetAddress": "0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9",
         "targetAddressType": "CONTRACT", 
       });
     xhr.send(data);
