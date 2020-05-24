@@ -19,7 +19,7 @@ function simulatePayment() {
     var data = JSON.stringify({
         "amount": 5,
         "symbol": "EUR36",
-        "targetAddress": "0xb62d5cfe67b69f9bf045a2f7ef923a384d533154",  // https://rinkeby.aragon.org/?#/fibreetest/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154/
+        "targetAddress": "0xf4560e7cb77d8b2d87f9ddce8863b3c56ffa30b8",  // https://rinkeby.aragon.org/?#/fibreetest/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154/
         "targetAddressType": "CONTRACT", 
         "userIban": "CH93 0076 2011 6238 5295 7" // this is used in dev/test to simulate payments. You need to create a user, use this number when onboarding  
       });
@@ -42,7 +42,7 @@ function getPaymentInfo() {
     var data = JSON.stringify({
         "amount": 5,
         "symbol": "EUR36", // CHF36",
-        "targetAddress": "0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9",
+        "targetAddress": "0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9",  //https://mainnet.aragon.org/?#/fibreefunding/0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9/
         "targetAddressType": "CONTRACT", 
       });
     xhr.send(data);
