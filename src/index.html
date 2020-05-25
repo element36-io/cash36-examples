@@ -12,84 +12,86 @@
     <header class="header">
       <div class="header__content">
         <h1>   
-          <img  src="./img/aragon2.png" class="hero__img" style="width: 5%; height: 5%"/>
-          Wire-transfer Euro or CHF to Aragon Smart Contracts
+          <img  src="./img/aragon2.png" class="hero__img" />
+          QR-Code to Smart Contract<br> ... and back again!
         </h1>
       </div>
     </header>
     <div class="container">
       <section class="hero">
-
+        <p class="__paragraph">
+          Here we want to show that you can connect <strong>ANY SMART CONTRACT</strong> to the banking network with element36. 
+          As example use the <strong>QR-Invoice</strong> (ISO 20022 standard) and the the popular 
+          <a href="https://aragon.org" target="_blank" >Aragon</a> platform, where anone can create Smart Contracts to create decentralized organizations, issue tokens, manage funding or own funds. 
+        </p>
+        <p class="__paragraph">
         <OL >
-            <LI>Click button (and do real payment if can choose the red pill)</LI>
+            <LI>Click button</LI>
             <LI>Onboard &amp; KYC yourself if not done yet</LI>
             <LI>Funds will be sent to Aragon Smart Contract</LI>
-            <LI>(Target contract may trigger wire-transfers to your registered bank account)</LI>
-            
+            <LI>(Smart Contract may trigger wire-transfers to your registered bank account)</LI>
         </OL>
-        <br>
-        <p >
-          All transaction are handled within KYC-ed environment which is enforced by smart contracts (ERC20 stablecoins).
-      </p>
+        </p>
+        <p class="__paragraph">
+          Give it a try!
+        </p>
 
       </section>
-      <section class="ping-pong">
-        <div class="ping-pong__section paper">
-            <h3>Aragon with Testnetwork</h3>
+      <section class="example">
+        <div class="example__section paper">
+            <h3>Testnetwork</h3>
             Simulated payments &amp; KYC on rinkeby network.
  
             <p class="__paragraph">
                Clicking "simulate" will simulate the wire-transfer of the payment-slip below. Monitor the blockchain transaction on 
-                <a href="https://rinkeby.etherscan.io/address/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154#tokentxns">etherscan</a> or watch the changing balance on 
-                <a href="https://rinkeby.aragon.org/?#/fibreetest/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154/">Aragon contract</a> when the transactions get processed. 
+                <a href="https://rinkeby.etherscan.io/address/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154#tokentxns" target="_blank">etherscan</a> or watch the changing balance on the sample
+                <a href="https://rinkeby.aragon.org/?#/fibreetest/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154/" target="_blank">Aragon contract</a> when the transactions get processed. 
             </p>
         
             <p class="__paragraph">
-              You may log into <a href="https://demo.e36.io">demo.e36.io</a> with the demo-user used in the simulation: <UL><LI>user: demo@element36.io</LI> <LI>password: Element36.io </LI></UL>
+              You may log into <a href="https://demo.e36.io" target="_blank">demo.e36.io</a> with the demo-user used in the simulation: <UL><LI>user: demo@element36.io</LI> <LI>password: Element36.io </LI></UL>
           </p>
 
             <button type="button" class="btn-ping button button-full" onclick="simulatePayment();">
               Simulate 5 EUR payment
             </button>
         </div>
-        <div class="ping-pong__section paper">
-            <h3>Aragon using real money</h3>
+        <div class="example__section paper">
+            <h3>Smart Contracts with real money</h3>
             <div>
-              Aragon contract on mainnet using real (live) payments and KYC. 
+              An Aragon contract on mainnet using real (live) payments and KYC.
             </div>
             <p class="__paragraph">
-                Make a minimum donation of 5 EUR to <a href="Fibree.org">Fibree.org</a>. 
-                After the payment you NEED TO DO FULL KYC on <a href="https://cash36.io">cash36.io</a>. 
-                If done, your payment will converted to our stablecoin and sent to the contract. 
-                Check arrival of your donation on <a href="https://mainnet.aragon.org/?#/fibreefunding/0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9/">Aragon</a> 
+                Donate minimum 5 EUR to us :) <br> 
+                After the payment you NEED TO DO FULL KYC on <a href="https://cash36.io">cash36.io</a> or upload data via our 
+                <a href="https://github.com/element36-io/cash36-frontend/blob/master/doc/src/singlepage.md" target="_blank">API</a>. 
+                If identification is successful, your payment will converted to our stablecoin and sent to the contract. 
+                Check funds on <a href="https://mainnet.aragon.org/?#/fibreefunding/0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9/" target="_blank">Aragon</a> 
                 or 
-                <a href="https://etherscan.io/address/0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9">etherscan</a>
-                <br>
+                <a href="https://etherscan.io/address/0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9" target="_blank">etherscan</a>.
                 Based on the transaction-hash, the contracts can send back funds to you.
-            </p>
-            <p class="__paragraph">
-                Check out the Aragon contract on <a href="0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9">Aragon.org</a>. 
             </p>
 
             <button type="button" class="btn-ping button button-full">
-            Do real payment of 5 CHF
+            Do real payment of 5 Euros 
             </button>
         </div>
       </section>
-      <section class="ping-pong">
-        <div  class="paper " id="bankslip"><br><br>&nbsp;&nbsp;&nbsp;BANK SLIP WILL APPEAR HERE AFTER CLICKING ONE OF THE BUTTONS !!!&nbsp;&nbsp;&nbsp;<br><br></div>
+      <section class="example">
+        <div  class="paper " id="bankslip"><br><br>&nbsp;&nbsp;&nbsp;QR-Code for the wire transfer will appear here after clicking the button. &nbsp;&nbsp;&nbsp;<br><br></div>
       </section>
      
 
-    <section class="ping-pong">
+    <section class="example">
         <div>
-          You may create your own <a href="https://aragon.org">Aragon Contracts</a> and clone  <a href="https://github.com/element36-io">our github project</a> to create your own UI. 
-        <a href="https://element36.io">Contact us</a> if you want to create your own Stablecoins. 
+          You may create your own <a href="https://aragon.org" target="_blank">Aragon Contracts</a> and clone  <a href="https://github.com/element36-io">our github project</a> to create your own UI. 
+        <a href="https://element36.io" target="_blank">Contact us</a> if you want to know more, need help or if you want to create your own Stablecoins for your Dapp. 
+        Apply for the zero fee partner program <a href="https://docs.google.com/forms/d/e/1FAIpQLScD3GA20z6Ny2c8AYaO8vbAFZZQt8XvL9RIvsjKfTlL5r5Nzw/viewform?usp=sf_link" target="_blank">here</a>
         </div>
     </section>
 
-    <section class="ping-pong" style=" opacity: 0.5; display:none;">
-      <div class="ping-pong__section paper " style="max-width: 800px;">
+    <section class="example" style=" opacity: 0.5; display:none;" id="bankdetails">
+      <div class="example__section paper " style="max-width: 800px;">
         <h3>Bank details for the wire-transfer:</h3>
         
         <div id="bank-details" >

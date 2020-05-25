@@ -8,6 +8,7 @@
   --background: #fcfcfc;
   --header: #f7f8fb;
   --button: linear-gradient(to left bottom, #208fea, #6bafe6);
+  --maxwidth: 875px;
 
   --borderRadius: 4px;
   --shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -146,8 +147,9 @@ h3 {
 /* CONTAINER */
 
 .container {
-  max-width: 1000px;
+  max-width: var(--maxwidth);
   margin: 0 auto;
+  padding:0.5em;
 }
 
 /* HEADER */
@@ -156,11 +158,15 @@ h3 {
   background: var(--header);
   color: var(--textGray);
   padding: 8px;
+  margin-bottom: 1em;
+  vertical-align: center;
 }
 
 .header__content {
-  max-width: 1000px;
+  max-width: var(--maxwidth);
   margin: 0 auto;
+  height:6em;
+
 }
 
 /* HERO */
@@ -199,12 +205,12 @@ div#paymentReferenceId {
 
 /* PING PONG */
 
-.ping-pong {
-  display: flex;
+.example {
+  /*display: flex;*/
   margin-bottom: 16px;
 }
 
-.ping-pong__section {
+.example__section {
   height: 400px;
   margin-right: 16px;
   display: inline-flex;
@@ -213,10 +219,10 @@ div#paymentReferenceId {
   max-width: 400px;
 }
 
-.ping-pong__section > button {
+.example__section > button {
   margin-top: auto;
 }
 
-.ping-pong__section > input {
+.example__section > input {
   margin: 8px 0;
 }
