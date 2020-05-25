@@ -42,7 +42,7 @@ function getPaymentInfo() {
     var data = JSON.stringify({
         "amount": 5,
         "symbol": "EUR36", // CHF36",
-        "targetAddress": "0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9",  //https://mainnet.aragon.org/?#/fibreefunding/0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9/
+        "targetAddress": "0xcde22994b8ecb3cd8b3c24426e00681ffea19f2e",  //https://mainnet.aragon.org/?#/fibreefunding/0x9477bb6b58fb3e08ad08ba30c8116ac3ac728ee9/
         "targetAddressType": "CONTRACT", 
       });
     xhr.send(data);
