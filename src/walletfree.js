@@ -26,8 +26,7 @@ function simulatePayment() {
     xhr.send(data);
 
 }
-function getPaymentInfo() {
-
+function doRealPayment() {
     var xhr = new XMLHttpRequest();
     var url = prodBaseUrl+"exchange/buy/public/for";
     console.log("calling "+url);    
