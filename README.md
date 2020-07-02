@@ -20,6 +20,9 @@ safety and transparency of blockchain apps. See a list of Aragon Dapps [here](ht
 
 *Try out and test* [WALLET-FREE](https://examples.e36.io/src/index.html) transfers to Aragon. You may create own contracts or use any ERC20 contract instead. Source of the demo project is [here](./src/aragon.html).
 
+ [Demo of Real Estate Investment](https://www.apfelhof.info/investieren.html) - password is "charly". 
+
+
 ## Ethereum: contract initiates wire-transfer
 
 Trigger wire (bank) transfers via Smart Contract. This project contains a demo-contract deloyed on mainnet and several Testnets:  
