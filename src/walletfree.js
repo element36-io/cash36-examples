@@ -1,6 +1,6 @@
 
 //var demoBaseUrl= "http://localhost:8090/cash36/" 
-var demoBaseUrl= "https://demo.e36.io:/api/v1/" 
+var demoBaseUrl= "https://demo.e36.io/api/v1/" 
 var prodBaseUrl= "https://cash36.io/api/v1/" 
 
 
