@@ -1,7 +1,7 @@
 ## Demo Server
 
-- might be offline some at some times
-- Try ["by me a coffe"](https://examples.e36.io/coffee.html) demo
+- Try ["by me a coffe"](https://examples.e36.io/src/coffee.html): Demo how it is used
+- Log on to:  ["cash36 Platform (Rinkeby)"](https://demo.e36.io): might be offline some at some times
 
 ## Start the server locally
 
