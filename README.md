@@ -1,3 +1,8 @@
+## Demo Server
+
+- might be offline some at some times
+- Try ["by me a coffe"](https://examples.e36.io/coffee.html) demo
+
 ## Start the server locally
 
 ```bash
