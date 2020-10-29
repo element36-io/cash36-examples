@@ -5,7 +5,7 @@
 
 ## Our Coding examples
 
-- Use element36 to wire-transfer Euro and CHF to smart contracts
+- Use element36 to wire-transfer Euro and CHF to ethereum smart contracts or wallets
 - Trigger wire transfers from smart contracts
 - Reveal identity of the senders of CHF36 and EUR36
 
