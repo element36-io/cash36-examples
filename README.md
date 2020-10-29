@@ -3,17 +3,17 @@
 - Try ["by me a coffe"](https://examples.e36.io/src/coffee.html): Demo how it is used
 - Log on to:  ["cash36 Platform (Rinkeby)"](https://demo.e36.io): might be offline some at some times
 
-## Start the server locally
-
-```bash
-yarn start
-```
-
-## Coding examples
+## Our Coding examples
 
 - Use element36 to wire-transfer Euro and CHF to smart contracts
 - Trigger wire transfers from smart contracts
 - Reveal identity of the senders of CHF36 and EUR36
+
+Start server locally
+
+```bash
+yarn start
+```
 
 ## A simple Real-Estate Funding/Tokenization Example
 
