@@ -10,6 +10,10 @@ yarn start
 - Trigger wire transfers from smart contracts
 - Reveal identity of the senders of CHF36 and EUR36
 
+## A simple Real-Estate Funding/Tokenization Example
+
+[Demo of Real Estate Investment](https://www.apfelhof.info/investieren.html) - password is "charly".
+
 
 ## Aragon: Wire-transfer to a 0x address
 
@@ -19,8 +23,6 @@ use the tradional payment network e.g. for funding purposes, without loosing the
 safety and transparency of blockchain apps. See a list of Aragon Dapps [here](https://poweredby.aragon.org/).  
 
 *Try out and test* [WALLET-FREE](https://examples.e36.io/src/index.html) transfers to Aragon. You may create own contracts or use any ERC20 contract instead. Source of the demo project is [here](./src/aragon.html).
-
- [Demo of Real Estate Investment](https://www.apfelhof.info/investieren.html) - password is "charly". 
 
 
 ## Ethereum: contract initiates wire-transfer

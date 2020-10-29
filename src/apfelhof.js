@@ -23,7 +23,7 @@ function doinvest() {
         alert("Bitte Betrag eingeben - Ihre Eingabe: "+amount); 
     } else {
         var data = JSON.stringify({
-            "amount": 0,
+            "amount": amount,
             "symbol": "EUR36",
             "targetAddress": "0xf4560e7cb77d8b2d87f9ddce8863b3c56ffa30b8",  // https://rinkeby.aragon.org/?#/fibreetest/0xb62d5cfe67b69f9bf045a2f7ef923a384d533154/
             "targetAddressType": "CONTRACT", 
