@@ -1,7 +1,7 @@
 ## Demo Server
 
 - Try ["by me a coffe"](https://examples.e36.io/src/coffee.html): Demo how it is used
-- Log on to:  ["cash36 Platform (Rinkeby)"](https://demo.e36.io): might be offline some at some times
+- Log on to:  ["cash36 Platform (Rinkeby)"](https://demo.e36.io): User: demo@element36.io, password: Element36.io  - platform might be offline some at some times
 
 ## Our Coding examples
 
