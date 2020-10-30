@@ -1,9 +1,9 @@
 ## Demo Server
 
 - Try ["buy me a coffe"](https://examples.e36.io/src/coffee.html): Demo how it is used
-- Log on to:  ["cash36 Platform (Rinkeby)"](https://demo.e36.io): User: demo@element36.io, password: Element36.io  
+- Log on to  **["cash36 Platform (Rinkeby)"](https://demo.e36.io)**: User: demo@element36.io, password: Element36.io  
 
-Demo platform might be offline some at some times, [check status here](https://stats.uptimerobot.com/89EgPhj80D).
+Demo platform might be offline some at some times, [check status here](https://stats.uptimerobot.com/89EgPhj80D). :sparkles:
 
 ## Our Coding examples
 
