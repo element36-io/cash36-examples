@@ -1,9 +1,9 @@
 ## Demo Server
 
 - Try ["buy me a coffe"](https://examples.e36.io/src/coffee.html): Demo how it is used
-- Log on to:  ["cash36 Platform (Rinkeby)"](https://demo.e36.io): User: demo@element36.io, password: Element36.io  
+- Log on to  **["cash36 Platform (Rinkeby)"](https://demo.e36.io)**: User: demo@element36.io, password: Element36.io  
 
-Demo platform might be offline some at some times, [check status here](https://stats.uptimerobot.com/89EgPhj80D).
+Demo platform might be offline some at some times, [check status here](https://stats.uptimerobot.com/89EgPhj80D). :sparkles:
 
 ## Our Coding examples
 
@@ -29,7 +29,7 @@ With elment36, these organizations can reach out to users without blockchain kno
 use the tradional payment network e.g. for funding purposes, without loosing the 
 safety and transparency of blockchain apps. See a list of Aragon Dapps [here](https://poweredby.aragon.org/).  
 
-*Try out and test* [WALLET-FREE](https://examples.e36.io/src/index.html) transfers to Aragon. You may create own contracts or use any ERC20 contract instead. Source of the demo project is [here](./src/aragon.html).
+*Try out and test* [WALLET-FREE](https://examples.e36.io/src/index.html) transfers to Aragon. You may create own contracts or use any ERC20 contract instead. 
 
 
 ## Ethereum: contract initiates wire-transfer
