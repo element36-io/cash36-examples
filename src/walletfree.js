@@ -57,5 +57,5 @@ function showPaymentInfo(serverInfo) {
         }
     };
     document.getElementById("bankdetails").style.display="block";
-
+    document.getElementById("explainer2").style.display="block";
 }

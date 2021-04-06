@@ -26,10 +26,24 @@
           
           <button type="button" class="btn-ping button button-full button-invest margin-10" style="width:300px;margin-left: 50px;" onclick="doinvest()">
               get payment infos
-          </button>
+          </button>demo
           </h1>
           
           <div  class="paper " id="bankslip" style=" opacity: 0.85;" ></div>
+        
+          <div class="paper"  id="explainer2" style="display:none">
+            <section class="example" style=" opacity: 0.5; ">
+              <div class="example__section paper " style="max-width: 800px; max-height:150px;">
+                <h3>Payment is simulated.</h3>
+                
+                <div id="bank-details" >
+                    Log into demo.e36.io with demo@element36.io password Element36.io. 
+                    The platform will pick up the payment and mint a stablecoin for the Demo-User.
+                </div>
+              </div>
+            </section>
+          </div>
+
           <div style="visibility: hidden">
             <section class="example" style=" opacity: 0.5; display:none;" id="bankdetails">
               <div class="example__section paper " style="max-width: 800px;">
@@ -48,6 +62,8 @@
               </div>
             </section>
           </div>
+
+
         </div>
       </div>
 
